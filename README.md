@@ -15,10 +15,10 @@ This project is meant as a learning / portfolio piece to understand how allocato
 ## Project Structure
 
 c-custom-allocator/
-├─ src/
-│  ├─ allocator.c    # Implementation of the custom allocator
-│  ├─ main.c         # Simple test harness / demo
-├─ include/
-│  ├─ allocator.h    # Public API (my_malloc, my_free, my_realloc, etc.)
-├─ Makefile          # Build script
-└─ README.md
+- src/
+- - allocator.c    # Implementation of the custom allocator
+- - main.c         # Simple test harness / demo
+- include/
+- - allocator.h    # Public API (my_malloc, my_free, my_realloc, etc.)
+- Makefile          # Build script
+- README.md
